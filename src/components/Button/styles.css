@@ -1,0 +1,6 @@
+
+.btn-styles
+{
+    @apply mt-12 hover:bg-white hover:text-black transition-all ease-in duration-500;
+}
+

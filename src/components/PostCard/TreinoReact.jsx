@@ -1,6 +1,7 @@
 import { useEffect, useState, useCallback } from "react";
 
 import { loadDigimons } from "../../utils/load-digimons";
+import { Button } from "../Button";
 import { PostsDigi } from "../PostsDigi";
 import { TextInput } from "../TextInput";
 
@@ -73,32 +74,18 @@ export const TreinoReact = () => {
 
       {!searchValue && (
         <div className="flex justify-around w-full">
-        <button
-          className={`btn btn-transition mt-12 hover:bg-white 
-      hover:text-black transition-all 
-      ease-in duration-300 ${
-        notMoreDigi
-          ? "cursor-not-allowed hover:bg-gray-400 hover:text-red-400"
-          : ""
-      }`}
-          onClick={loadMoreDigi}
-          disabled={notMoreDigi}
-        >
-          LOAD MORE +
-        </button>
-        <button
-          className={`btn btn-transition mt-12 hover:bg-white 
-      hover:text-black transition-all 
-      ease-in duration-300 ${
-        !notMoreDigi && page === 0
-          ? "cursor-not-allowed hover:bg-gray-400 hover:text-red-400"
-          : ""
-      }`}
-          onClick={loadDecreaseDigi}
-          disabled={page <= 0}
-        >
-          REDUCE -
-        </button>
+        <Button 
+        loadMoreDigi={loadMoreDigi} 
+        notMoreDigi={notMoreDigi}
+        text={"LOAD MORE +"}
+        />
+
+        <Button 
+        loadMoreDigi={loadDecreaseDigi}
+        notMoreDigi={page <= 0}
+        text={"REDUCE -"}
+        />
+       
         </div>
         
       )}

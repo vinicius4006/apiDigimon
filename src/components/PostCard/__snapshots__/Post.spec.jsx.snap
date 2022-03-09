@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TreinoReactCard /> should match snapshot 1`] = `
+<div
+  class="digiPost"
+>
+  <img
+    alt="nameDigimon"
+    src="img/digimon.png"
+  />
+  <div
+    class="digi-content"
+  >
+    <h1
+      class="h1-content"
+    >
+      nameDigimon
+    </h1>
+    <p>
+      levelDigimon
+    </p>
+  </div>
+</div>
+`;

@@ -8,6 +8,7 @@ export const TreinoReactCard = ({ name, img, level }) => (
     <div className="digi-content">
       <h1 className="h1-content">{name}</h1>
       <p>{level}</p>
+      
     </div>
   </div>
 );

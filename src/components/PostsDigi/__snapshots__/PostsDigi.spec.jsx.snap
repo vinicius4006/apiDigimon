@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostsDigi /> should match snapshot 1`] = `
+<div
+  class="digiList"
+>
+  <div
+    class="digiPost"
+  >
+    <img
+      alt="nameDigimon"
+      src="img/digimon.png"
+    />
+    <div
+      class="digi-content"
+    >
+      <h1
+        class="h1-content"
+      >
+        nameDigimon
+      </h1>
+      <p>
+        levelDigimon
+      </p>
+    </div>
+  </div>
+  <div
+    class="digiPost"
+  >
+    <img
+      alt="nameDigimon 2"
+      src="img/digimon2.png"
+    />
+    <div
+      class="digi-content"
+    >
+      <h1
+        class="h1-content"
+      >
+        nameDigimon 2
+      </h1>
+      <p>
+        levelDigimon 2
+      </p>
+    </div>
+  </div>
+  <div
+    class="digiPost"
+  >
+    <img
+      alt="nameDigimon 3"
+      src="img/digimon3.png"
+    />
+    <div
+      class="digi-content"
+    >
+      <h1
+        class="h1-content"
+      >
+        nameDigimon 3
+      </h1>
+      <p>
+        levelDigimon 3
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<PostsDigi /> should not render posts 1`] = `
+<div
+  class="digiList"
+>
+  <div
+    class="digiPost"
+  >
+    <img
+      alt="nameDigimon"
+      src="img/digimon.png"
+    />
+    <div
+      class="digi-content"
+    >
+      <h1
+        class="h1-content"
+      >
+        nameDigimon
+      </h1>
+      <p>
+        levelDigimon
+      </p>
+    </div>
+  </div>
+  <div
+    class="digiPost"
+  >
+    <img
+      alt="nameDigimon 2"
+      src="img/digimon2.png"
+    />
+    <div
+      class="digi-content"
+    >
+      <h1
+        class="h1-content"
+      >
+        nameDigimon 2
+      </h1>
+      <p>
+        levelDigimon 2
+      </p>
+    </div>
+  </div>
+  <div
+    class="digiPost"
+  >
+    <img
+      alt="nameDigimon 3"
+      src="img/digimon3.png"
+    />
+    <div
+      class="digi-content"
+    >
+      <h1
+        class="h1-content"
+      >
+        nameDigimon 3
+      </h1>
+      <p>
+        levelDigimon 3
+      </p>
+    </div>
+  </div>
+</div>
+`;

@@ -16,6 +16,12 @@ describe('<TreinoReactCard />', () => {
 
      expect(screen.getByText('levelDigimon')).toBeInTheDocument();
     })
+
+    it('should match snapshot', () => {
+        const {container} = render(<TreinoReactCard {...props}/>);
+        expect(container.firstChild).toMatchSnapshot();
+      
+    })
 });
 
 //Debug funciona como o console.log()
@@ -23,3 +29,6 @@ describe('<TreinoReactCard />', () => {
 //Precisamos saber se a imagem está correta e o alt também
 
 //Como não temos um específico para parágrafo, é necessário usar o getByText
+
+//o snapshot é necessário pois ele vai comparar com snap que foi tirado,
+//então caso eu adicione algo, pode resultar em erro

@@ -1,4 +1,4 @@
-import { TreinoReact } from './components/PostCard/TreinoReact'
+import { TreinoReact } from './components/PostCard/index';
 
 
 

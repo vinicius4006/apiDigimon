@@ -1,0 +1,16 @@
+
+.digiPost
+{
+    @apply shadow-md flex flex-col items-center 
+    justify-center transition-all ease-in-out hover:scale-125;
+}
+
+.digi-content
+{
+    @apply flex flex-col items-center justify-center;
+}
+
+.h1-content
+{
+    @apply font-bold;
+}
